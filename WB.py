@@ -88,7 +88,7 @@ def net_enabled():
 
 
 if __name__ == "__main__":
-    weibo =weiboMonitor(value="6179067755",containerid="1076036179067755")
+    weibo =weiboMonitor(value="",containerid="")
     weibo.getWBQueue()
     s = sched.scheduler(time.time, time.sleep)
     while True:
